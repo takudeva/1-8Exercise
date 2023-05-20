@@ -1,0 +1,58 @@
+/*リセットCSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*main from here*/
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*list-class from here*/
+.list {
+  padding: 50px 0 50px 0;
+}
+
+.list-content {
+  list-style: none;
+}
+
+.list-item {
+  padding: 20px 0 20px 20px;
+  color: #a9a9a9;
+}
+
+.list-item:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+
+/*box-class from here*/
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.box-item {
+  width: 30%;
+  padding-top: 200px;
+  margin-bottom:40px;
+}
+
+.box-item:nth-child(3n-2),
+.box-item:nth-child(3n-1) {
+  margin: 0 5% 40px 0;
+}
+
+.box-item:nth-child(4n-2),
+.box-item:nth-child(4n-1),
+.box-item:nth-child(4n) {
+  background-color: orange;
+}
+
+.box-item:nth-child(4n-3) {
+  background-color: yellow;
+}
