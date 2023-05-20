@@ -50,9 +50,9 @@ main {
 .box-item:nth-child(4n-2),
 .box-item:nth-child(4n-1),
 .box-item:nth-child(4n) {
-  background-color: orange;
+  background-color: gold;
 }
 
 .box-item:nth-child(4n-3) {
-  background-color: yellow;
+  background-color: orange;
 }
