@@ -8,12 +8,12 @@
 /*main from here*/
 main {
   width: 960px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 /*list-class from here*/
 .list {
-  padding: 50px 0 50px 0;
+  margin-bottom: 50px;
 }
 
 .list-content {
@@ -21,7 +21,7 @@ main {
 }
 
 .list-item {
-  padding: 20px 0 20px 20px;
+  padding: 20px;
   color: #a9a9a9;
 }
 
@@ -39,20 +39,15 @@ main {
 .box-item {
   width: 30%;
   padding-top: 200px;
+  margin-right: 5%;
   margin-bottom:40px;
+  background-color: #ffd700
 }
 
-.box-item:nth-child(3n-2),
-.box-item:nth-child(3n-1) {
-  margin: 0 5% 40px 0;
-}
-
-.box-item:nth-child(4n-2),
-.box-item:nth-child(4n-1),
-.box-item:nth-child(4n) {
-  background-color: gold;
+.box-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .box-item:nth-child(4n-3) {
-  background-color: orange;
+  background-color: #ff8c00;
 }
